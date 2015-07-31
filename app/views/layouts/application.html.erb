@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PornShanty Free Porno Videos</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <meta name="description" content="Selection of Free Porn Videos" />
+	<meta name="author" content="kevin bett for pornshanty" />
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<%= render "home/logo" %>
+			<nav>
+				<ul>
+					<li><%= link_to "Latest Videos", "/" %></li>
+					<li><%= link_to "Top Rated Videos", "/" %></li>
+					<li><%= link_to "Teen Videos", "/" %></li>
+					<li><%= link_to "European Videos", "/" %></li>
+					<li><%= link_to "American Videos", "/" %></li>
+				</ul>
+			</nav>
+		</header>
+		<%= yield %>
+	</div>	
+</body>
+</html>
